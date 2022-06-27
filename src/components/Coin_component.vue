@@ -2,9 +2,10 @@
   <tbody>
     <tr :key="monedas.id">
       <td> <img src="../assets/wrxCoin.9d1266c9.png" width="25px" alt=""> <span class="crypto">{{ monedas.symbol }}</span></td>
-      <td>{{monedas.lastPrice}}</td>
-      <td>{{monedas.lowPrice}}</td>
-      <td>{{monedas.highPrice}}</td>
+      <td>US$ {{monedas.lastPrice}}</td>
+      <td>US$ {{monedas.lowPrice}}</td>
+      <td>US$ {{monedas.highPrice}}</td>
+      <td>US$ {{monedas.askPrice}}</td>
       <td>
         <button class="btn btn-vermas" @click="showMore(monedas.symbol)" type="button"  data-bs-toggle="modal"
                     data-bs-target="#exampleModal">

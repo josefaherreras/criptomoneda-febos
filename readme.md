@@ -41,10 +41,6 @@ npm install
 npm run serve
 ```
 
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ### Consideraciones Importantes
 
 ¡También necesita habilitar `localhost:8080` en su configuración de CORS Origins! Ya sea a través de [management page](https://manage.sanity.io/) en `settings` o ejecutando esto en la carpeta del proyecto que configuraste con `sanity init`:

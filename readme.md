@@ -28,7 +28,8 @@ You will need [Node.js](https://nodejs.org) version 6.0 or greater installed on 
 Obtenga el código clonando este repositorio mediante git
 
     > git clone https://github.com/josefaherreras/criptomoneda-febos.git
-... o [descargando el código fuente](https://github.com/josefaherreras/criptomoneda-febos/archive/refs/heads/main.zip) como un archivo zip.
+... o [descargando el código fuente](https://github.com/josefaherreras/criptomoneda-febos/archive/refs/heads/master.zip) como un archivo zip.
+
 
 Una vez descargado, abra el terminal en el directorio del proyecto, y continúe con:
 

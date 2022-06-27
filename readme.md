@@ -19,9 +19,29 @@
 
 Vue.js + Bootstrap 5 - frontend
 === 
+## Prueba técnica FEBOS - Desarrollo Front-end
+La prueba técnica consiste en construir una aplicación web muy sencilla utilizando vue 2.x que sea capaz de lo siguiente:
 
-## Prerequisites
-You will need [Node.js](https://nodejs.org) version 6.0 or greater installed on your system.
+- Mostrar información desde Wazirx exchange a nivel de cabezera y detalle.
+- Todas las decisiones sobre layout, arquitectura e implementaciones es del postulante.
+  (Las secciones no necesariamente estan separadas, aplicar lo que se desee para que sea amigable y visualmente atractivo)
+ 
+Tendremos basicamente dos funcionalidades, una es mostrar de alguna forma el listado de mercados, y la otra es mostrar un mercado individual (misma pagina, tab, grilla y popup, como creas conveniente y amigable)
+
+#### Funcionalidad 1: Wazirx Resumen/Listado
+
+- Mostrar el listado "market summary" que es retornado en JSON desde la siguiente [API](https://api.wazirx.com/sapi/v1/tickers/24hr)
+  (Market Summaries 24hrs API)
+
+#### Funcionalidad 2: Mostrar datos individuales(market data)
+
+- Dejar al usuario seleccionar un mercado desde Wazirxt el cual mostrara información del mercado individual seleccionado [Rest CALL ejemplo](https://api.wazirx.com/sapi/v1/ticker/24hr?symbol=btcinr)
+
+Permite que el usuario pueda ver tantos markets como quiera en una pagina.
+
+
+## Prerequisitos
+Tu necesitas tener [Node.js](https://nodejs.org) version 6.0 o mayor instalado en su sistema.
 
 ## Setup
 

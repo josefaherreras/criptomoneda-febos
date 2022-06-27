@@ -26,7 +26,7 @@
                 <th>PRECIO ALTO</th>
               </tr>
             </thead>
-            <coin @showModal="showModal" v-for="i in crypCoin" :key="i.id" v-bind:monedas="i" />
+            <Coin_component @showModal="showModal" v-for="i in crypCoin" :key="i.id" v-bind:monedas="i" />
           </table>
         </div>
       </div>
@@ -67,10 +67,10 @@
 
 <script>
 import axios from "axios";
-import Coin from "./components/coin.vue";
+import Coin_component from "./components/Coin_component.vue";
 export default {
   components: {
-    Coin, // coin
+    Coin_component, // coin_component
   },
   data() {
     return {
